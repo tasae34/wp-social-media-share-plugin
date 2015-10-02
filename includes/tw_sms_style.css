@@ -1,0 +1,235 @@
+blockquote, button, h1, h2, h3, h4, h5, h6, iframe, ol, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+}
+
+p{
+    margin-bottom: 0 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tw_sms_sm_tweet_box_header {
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 0.85rem;
+    white-space: nowrap;
+}
+
+/*** Tweeter embed***/
+.tw_sms_wrapper blockquote{
+    border: none;
+    max-width: 100%;
+    min-width: 220px;
+    padding: 0;
+    display: block;
+    position: static;
+    visibility: visible;
+    width: 500px;
+    height: 182px;
+    margin: 0;
+}
+.tw_sms_wrapper{
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 4px;
+    max-width: 520px;
+    font: normal normal 16px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    color: #1c2022;
+    padding: 20px 20px 12px 20px;
+    height: 262px;
+}
+
+/*** Header ***/
+
+.tw_sms_header{
+    position: relative;
+    margin-bottom: 25px;
+    font: normal normal 16px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    color: #1c2022;
+}
+
+.tw_sms_body{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.tw_sms_author-image{
+    float: left;
+    margin-right: 15px;
+}
+.tw_sms_author-name .tw_sms_author{
+    float: inherit;
+}
+
+.tw_sms_author-name .tw_sms_author{
+    color:#000000;
+    font-size: 20px;
+}
+
+.tw_sms_author-name .tw_sms_author:hover{
+    color:#55ACEE;
+    text-decoration: underline;
+}
+
+.tw_sms_author-name .tw_sms_name:hover{
+    color:#55ACEE;
+    text-decoration: none;
+
+}
+
+.tw_sms_author-name .tw_sms_name{
+    font-size: 16px;
+
+}
+
+.tw_sms_author-name:hover{
+    color: #55ACEE;
+}
+
+.tw_sms_author{
+    font-weight: 700;
+    color: #000;
+
+}
+
+.tw_sms_screen-name .name{
+    line-height: 1.2;
+    float: inherit;
+}
+
+.tw_sms_name{
+    color:dimgray !important;
+}
+
+
+
+.tw_sms_name{
+    font-size: 1.25rem;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.tw_sms_brand{
+    float:right;
+    position: relative;
+}
+.tw_sms_header .tw_sms_brand a{
+    display: inline-block;
+    padding: .34375rem .8125rem .40625rem .71875rem;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #55acee;
+    background-color: #fff;
+    border: 1px solid #55acee;
+    border-radius: 4px;
+}
+.tw_sms_brand a i{
+    margin-right: 5px;
+}
+
+.tw_sms_body p{
+    color: #1c2022;
+    line-height: 20px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+
+.tw_sms_body p a{
+    color: #2b7bb9;
+    font: normal normal 16px/1.4 Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    outline: 0;
+}
+
+.tw_sms_header .tw_sms_brand a:hover{
+    color: #fff;
+    background-color: #55acee;
+    text-decoration: none;
+}
+/** Tweet text **/
+.tw_sms_tweet-text{
+    text-align:left;
+}
+.tw_sms_tweet-actions{
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin-top: 0.525rem;
+}
+
+.tw_sms_tweet-time a:hover{
+    text-decoration: none;
+}
+
+.tw_sms_tweet-actions ul{
+    display: block;
+    list-style: none;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+    overflow: hidden;
+
+}
+.tw_sms_tweet-actions li{
+    display: inline-block;
+    float: left;
+    text-align: center;
+    margin-right: 16px ;
+}
+
+.tw_sms_body .tw_sms_tweet-actions a{
+    display: inline-block;
+    padding-left: 25px;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.tw_sms_tweet-actions .tw_sms_reply{
+    background:url("reply.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+
+.tw_sms_tweet-actions .tw_sms_retweet{
+    background:url("retweet.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.tw_sms_tweet-actions .tw_sms_favorite{
+    background:url("favorite.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.tw_sms_tweet-actions li a i{
+    display: inline-block;
+    height: 1.25em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+    color: dimgray;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.tw_sms_tweet-actions .tw_sms_reply:hover{
+    color: #3b94d9;
+}
+.tw_sms_tweet-actions .tw_sms_retweet:hover{
+    color: greenyellow;
+}
+.tw_sms_tweet-actions .tw_sms_favorite:hover{
+    color:orange;
+}
